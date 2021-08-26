@@ -22,13 +22,13 @@ router.get('/',
 );
 
 // Actualizar tarea
-router.put('/:id',
+router.put('/id',
     auth,
     tareaController.actualizarTarea
 );
 
 // Eliminar tarea
-router.delete('/:id',
+router.delete('/id',
     auth,
     tareaController.eliminarTarea
 );
